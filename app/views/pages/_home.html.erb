@@ -1,0 +1,16 @@
+<% if user_signed_in? %>
+  <h1> Estás en putapp</h1>
+<% else %>
+  <div class="hero-unit">
+    <h1> Bienvenidos al demo</h1>
+    <p> 
+	   home 
+	   <%= link_to "onlulo", "http://onlulo.com" %> 
+    </p>
+    <p>
+	     <%= link_to "Sign Up now", new_user_registration_path, class: "btn btn-success btn-large" %> 
+    </p>
+
+</div>
+
+<% end %> 
