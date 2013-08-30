@@ -6,6 +6,7 @@ gem 'rails', '3.2.12'
 gem 'jquery-rails'
 gem 'devise'
 gem 'simple_form'
+gem 'aws-sdk'
 
 group :production do
 	gem 'pg'
