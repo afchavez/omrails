@@ -7,6 +7,7 @@ gem 'jquery-rails'
 gem 'devise'
 gem 'simple_form'
 gem 'aws-sdk'
+gem 'faker'
 
 group :production do
 	gem 'pg'
